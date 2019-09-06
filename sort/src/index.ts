@@ -4,20 +4,18 @@ import { CharactersCollection } from './CharactersCollections';
 import { LinkedList } from './LinkedList';
 
 const numbers = new NumbersCollection([-14, 5, 3, 1]);
-const sorter_numbers = new Sorter(numbers);
-sorter_numbers.sort();
-console.log(sorter_numbers);
+numbers.sort();
+console.log(numbers.data);
 
-const charaters = new CharactersCollection('CBAask');
-const sorter_charaters = new Sorter(charaters);
-sorter_charaters.sort();
-console.log(sorter_charaters);
+const link = new LinkedList();
+link.add(1);
+link.add(3);
+link.add(-1);
+link.add(4);
+link.add(9);
+link.sort();
+link.print();
 
-const list = new LinkedList();
-list.add(1);
-list.add(4);
-list.add(-6);
-list.add(-3);
-const sorter_list = new Sorter(list);
-sorter_list.sort();
-list.print();
+const c = new CharactersCollection('fuck');
+c.sort();
+console.log(c.data)
