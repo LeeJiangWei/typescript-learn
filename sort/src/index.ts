@@ -12,7 +12,6 @@ link.add(1);
 link.add(3);
 link.add(-1);
 link.add(4);
-link.add(9);
 link.sort();
 link.print();
 
