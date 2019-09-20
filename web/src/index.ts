@@ -1,9 +1,8 @@
 import { User } from './models/User';
 
-const user = new User({ name: 'alex', age: 20 });
+const user = new User({ id: 1 });
+user.set({ name: 'fuck', age: 400 });
+user.save();
 
-user.on('change', () => {});
-user.on('change', () => {});
-user.on('changegegegeg', () => {});
-
-console.log(user);
+const user2 = new User({ name: 'John' });
+user2.save();
