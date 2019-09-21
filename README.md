@@ -9,4 +9,4 @@
 - `tsc xxx.ts`
 - tsc: typescript compiler
 ### 自定义ts编译器配置
-创建配置文件`tsconfig.json`
+使用命令`tsc --init`创建配置文件`tsconfig.json`
