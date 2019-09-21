@@ -1,6 +1,6 @@
 # parcel
 ### Install
-`npm install -g parcel`
+`npm install -g parcel-bundler`
 ### Start
 `parcel index.html`
 ### Usage
