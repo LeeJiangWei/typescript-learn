@@ -7,6 +7,16 @@
     {
       "name": "John",
       "id": 2
+    },
+    {
+      "name": "smz",
+      "age": 20,
+      "id": 3
+    },
+    {
+      "name": "smz",
+      "age": 20,
+      "id": 4
     }
   ]
 }
